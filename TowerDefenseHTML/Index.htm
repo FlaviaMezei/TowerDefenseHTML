@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="TowerDefense.css"></link>
+    <script language="javascript" src="/tdjs.js" type="text/javascript"></script>
+    <title>Tower Defense</title>
+</head>
+<body onload="CreatePath()">
+<div id="messages" >Message: </div>
+Place a tower:
+<button id="btnTower1" onclick="AttachTower(this)" class="Tower1" value="url('Images/Tower1.png'),url('Images/Cursor2.cur'),auto"></button>
+<button id="btnTower2" onclick="AttachTower(this)" class="Tower2" value="url('Images/Tower2.png'),url('Images/Cursor2.cur'),auto"></button>
+<button id="btnTower3" onclick="AttachTower(this)" class="Tower3" value="url('Images/Tower3.png'),url('Images/Cursor2.cur'),auto"></button>
+<input id="textMoney" disabled="disabled" ondatabinding="ModifyAmount(this)" value="800" />
+
+<div id="mapDiv" onclick="PlaceOrUpgradeTower()" >
+
+    
+</div>
+</body>
+</html>

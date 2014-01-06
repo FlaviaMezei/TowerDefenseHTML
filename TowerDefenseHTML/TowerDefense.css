@@ -1,0 +1,49 @@
+﻿body
+{
+	
+}
+.Tower1
+{
+	background:url("Images/Tower1.png") no-repeat;
+	border:none;
+	width:76px;
+	height:76px;	
+}
+.Tower2
+{
+	background:url("Images/Tower2.png") no-repeat;
+	border:none;
+	width:76px;
+	height:76px;
+}
+.Tower3
+{
+	background:url("Images/Tower3.png") no-repeat;
+	border:none;
+	width:76px;
+	height:76px;
+}
+#mapDiv
+{
+	background:url("Images/Map1.png") no-repeat;
+	border:none;
+	width:700px;
+	height:437px;
+	margin-top:24px;
+	position:relative;
+}
+#textMoney
+{
+	font-weight:bold;
+	color:Green;
+}
+#messages
+{
+	color:Red;
+	font-weight:bold;
+}
+.mapTile{
+    position:absolute;    
+    width:76px;
+    height:76px;
+}
